@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Green Walls</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href="css/gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/xaboom.js"></script>
+</head>
+<body onload="showSlides()">
+    <div >
+        <a href="index.html">
+            <img alt="GetGREENIFY" src="Media/logo/xxx.png" height="150px" width="150px" >
+        </a>    
+            
+        <a href="index.html" style="right: 0 ;">
+            <span class="main">GetGREENIFY<sub>Get heaven at your doorsteps...</sub></span>
+        </a>
+        </div>
+        <br>
+          
+        <div class="navbar"  >   
+            <div class="dropdown" >
+                <button class="dropbtn" style="margin-left: 15em;">About</button>
+                    <div class="dropdown-content" style="margin-left: 23em;">
+                        <a href="#">Greenify</a>
+                        <a href="#">Mission</a>
+                        <a href="#">From Desk</a>
+            
+                    </div>
+            </div> 
+         <div class="dropdown">
+            <button class="dropbtn" style="margin-left: 3em;">Gallery</button>
+                <div class="dropdown-content" style="margin-left: 4em;">
+                    <a href="#">Designs</a>
+                    <a href="#">Culture</a>
+                    <a href="#">Reviews</a>
+                </div>
+        </div> 
+        <div class="dropdown">
+            <button class="dropbtn" style="margin-left: 3em;">Careers</button>
+                <div class="dropdown-content" style="margin-left: 4em; ">
+                    <a href="#">Artistry</a>
+                    <a href="#">Relations</a>
+                    <a href="#">Technical</a>             
+                </div>
+        </div> 
+        <div class="dropdown">
+            <button class="dropbtn" style="margin-left: 3em;">Contact Us</button>
+                <div class="dropdown-content" style="margin-left: 4em;">
+                    <a href="#">Housing</a>
+                    <a href="#">Workspace</a>
+                    <a href="#">Partner with Us</a>              
+                </div>
+        </div> 
+        <div class="dropdown">
+            <input type="text" class="#" placeholder="Search...">
+            <button type="submit" onclick="mapmapcss" class="btn" >Q</button>
+        </div>
+    </div>  
+    
+
+<div class="bottom-container" >
+    <div class="pehla" style="background-color: #9DC88D; border-left:14px solid white ;">
+        @:<br>contactus@gmail.com<br>
+        <br>
+        
+        
+        Contact:<br> +91-8017281324
+
+    </div>
+    <div class="dusra" style="background-color: #9fccaf; border-left: 14px solid white;">
+        Branch Office:<br> 123-xyz-Abc-Wrd<br>
+        <br>
+        Head office:<br> Dungarghrh , Rajasthan , India 
+        <br>
+        <img src="#">
+    </div>
+    <div class="teesra" style="background-color: #A1CFC8; border-left: 14px solid white;">
+        Social Media
+        <br>
+        <br>
+        <img src="" height="20px" width="20px" style="margin-left: 00px;float: left;"><a class="social" style="float: left;">Facebook</a><br><a class="social" >Insta</a>
+        <img src="" height="20px" width="20px" style="margin-left: 00px; float: none;"><a class="social" >Gram</a><br><a class="social" style="float: right;">Twitter</a>
+        <img src="" height="20px" width="20px" style="margin-left: 0px;float: right;">
+
+    </div>
+</div>
+          
+</body>
+</html>
