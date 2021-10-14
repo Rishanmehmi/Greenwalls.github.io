@@ -1,6 +1,6 @@
 body
 {
-  background-image: linear-gradient(90deg ,  #9DC88D , #A1CFC8 );
+  background-image: linear-gradient(90deg ,  #68c048 , #82ddcf );
     
     color: #ffffff;
 
@@ -154,13 +154,13 @@ a
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
-    user-select: none;
+
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
   }
   
   .slideshow-container > div
   {
-    width: 100%;  
+    width: 110%;  
     margin: 0px;
   }
   * {box-sizing:border-box}
@@ -191,7 +191,7 @@ a
     font-size: 50px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
-    user-select: none;
+    
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
   }
   
@@ -266,12 +266,13 @@ a
   .blogs
   {
     background-image: url(E:\Greenwalls\Media\logo\officedesk.jpg);
+    background-color: #f1f1f1;
     margin-top: 2%;
     padding: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: -1%;
+    margin-right: -1%;
     box-shadow: 3px #b87a17;
-    width: 100%;
+    width: 120%;
     height: auto;
     color: #ffffff;     
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -610,8 +611,7 @@ div.desc {
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+
 }
 
 /* Position the "next button" to the right */
@@ -758,11 +758,7 @@ hr.full
   margin-right: 10%;
   
 }
-@property --num {
-  syntax: "<integer>";
-  initial-value: 0;
-  inherits: false;
-}
+
 .cover::after {
   font: 800 40px system-ui;
   content: counter(count);
@@ -1024,4 +1020,18 @@ hr.full
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+}
+.alias
+{
+  height: auto;
+  width: auto;
+  background-color:#f1f1f1 ;
+  color: black;
+  border: 2px solid #f2f2f2;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  float: right;
+  margin-right: 5px;
+  z-index: 2;
 }
